@@ -1,0 +1,17 @@
+.homepage-bgimage {
+    background: white;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.earlycard{
+    background-color:white;
+    opacity: .9;
+}
+
+.title{
+    font-size: larger;
+    color: aqua;
+}

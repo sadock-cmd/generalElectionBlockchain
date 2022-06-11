@@ -1,0 +1,18 @@
+{
+  "name": "blockchain_voting_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sadock mlanga",
+  "license": "ISC",
+  "dependencies": {
+    "ganache": "^7.2.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

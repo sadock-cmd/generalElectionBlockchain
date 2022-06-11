@@ -1,0 +1,20 @@
+#viewdishes{
+    width:50%;
+}
+#editdishes{
+    width:75%;
+}
+#addDishes{
+    width:75%;
+}
+@media screen and (max-width: 992px) {
+    #viewdishes{
+        width:100%;
+    }
+    #editdishes{
+        width:100%;
+    }
+    #addDishes{
+        width:100%;
+    }
+}
