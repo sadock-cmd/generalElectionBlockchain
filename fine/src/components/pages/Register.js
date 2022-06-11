@@ -111,8 +111,8 @@ const Register = () => {
                 <div className="btnContainer">
                             <button class="btn btn-primary btn-lg btn-block mt-2 mb-2" onClick={handleSignup}>Register</button>
                             <p class="m-4 text-right">Have an account ?
-                                <Link to="/login"><button class="btn btn-secondary btn-sm ml-2">Login</button></Link></p>
-                                <Link to='/'><button className="btn btn-secondary btn-sm ml-2">Back Home</button></Link>
+                                <Link to="/login"><button class="btn btn-secondary btn-sm ml-2">Login</button></Link>
+                                <Link to='/'><button className="btn btn-secondary btn-sm ml-2">Back Home</button></Link></p>
 
                 </div>
             </div>
