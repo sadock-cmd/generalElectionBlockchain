@@ -62,12 +62,13 @@ module.exports = {
     // },
 
     ropsten: {
-      provider: () => new HDWalletProvider(MNEMONIC, `https://ropsten.infura.io/v3/9f184bd94635433db284f62d02d86bad`),
+      provider: new HDWalletProvider(MNEMONIC, `https://ropsten.infura.io/v3/9f184bd94635433db284f62d02d86bad`),
       network_id: 3,       // Ropsten's id
       gas: 500000,        // Ropsten has a lower block limit than mainnet
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
-      skipDryRun: true   
+      skipDryRun: true,
+      networkCheckTimeout: 999999   
       
       },
 

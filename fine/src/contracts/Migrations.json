@@ -671,7 +671,7 @@
   "sourceMap": "66:352:1:-:0;;;90:33;;;-1:-1:-1;;;;;;90:33:1;113:10;90:33;;;66:352;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "66:352:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;;;;;;;160:25:2;;;148:2;133:18;127:36:1;;;;;;;;90:33;;;;;-1:-1:-1;;;;;90:33:1;;;;;;-1:-1:-1;;;;;360:32:2;;;342:51;;330:2;315:18;90:33:1;196:203:2;313:103:1;;;;;;:::i;:::-;;:::i;:::-;;;225:5;;-1:-1:-1;;;;;225:5:1;211:10;:19;196:101;;;;-1:-1:-1;;;196:101:1;;791:2:2;196:101:1;;;773:21:2;830:2;810:18;;;803:30;869:34;849:18;;;842:62;-1:-1:-1;;;920:18:2;;;913:49;979:19;;196:101:1;;;;;;;;375:24:::1;:36:::0;313:103::o;404:180:2:-;463:6;516:2;504:9;495:7;491:23;487:32;484:52;;;532:1;529;522:12;484:52;-1:-1:-1;555:23:2;;404:180;-1:-1:-1;404:180:2:o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/home/sadock/Videos/fyployal/contracts/Migrations.sol",
+  "sourcePath": "/home/sadock/Music/lastdraftfyp/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1077,12 +1077,12 @@
     "3": {
       "events": {},
       "links": {},
-      "address": "0x194FE9002CF6E758f8d0b3b1B88f973c0Aec6aD8",
-      "transactionHash": "0x431b99f0be37279b71d4a929be2f26d53f56b2828c4ecb76770b1fbfbc685aca"
+      "address": "0x412539FE5D2278Ee523913F31f1D9376b2aeb1D5",
+      "transactionHash": "0x54b0f86a6f493ba37874ef482aabcd5281c7ae8ecef896f5d2d20f4337291370"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-10T11:12:08.615Z",
+  "updatedAt": "2022-06-11T12:29:17.741Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
