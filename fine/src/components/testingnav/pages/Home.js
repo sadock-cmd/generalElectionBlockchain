@@ -26,7 +26,8 @@ const Home = () => {
           <li><a href='https://metamask.io/download/' target="_blank">Google chrome metamask</a></li>
         </ul>
 
-        The smart contract is deployed in the Ropsten Test Network, therefore your metamask account should read on Ropsten Test Network. For voting process to be facilitated, user’s account balance should have <a href='https://faucet.egorfine.com/' target="_blank">ethers</a>.
+        The smart contract is deployed in the Ropsten Test Network, therefore your metamask account should read on Ropsten Test Network. For voting process to be facilitated, user’s account balance should have ethers,
+        To get ethers click of the following links :<a href='https://faucet.egorfine.com/' target="_blank"><i>link 1,</i></a> <a href='https://faucet.dimensions.network/' target="_blank"><i>link 2,</i></a>  </i></a> <a href='https://ropsten.chain.link/' target="_blank"><i>link 3</i></a>
 
         Live voting functionality is implemented, hence you will be able to view the votes as they are being cast. To this end, this blockchain voting solution provides voters with a way to confirm that their voice has been heard and that election results, as a whole, are truly accurate.
         <br/>
