@@ -21,7 +21,7 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
         <div className="mt 4 text-center style={{ color: '#000000'}}">
              <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
 
-            <h2>Live Election</h2>
+            <h2>Election Results</h2>
             <hr
               style={{
                  width: "88%",
@@ -70,6 +70,9 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
                       <p>{canidate2.voteCount}</p>
                     </div>
                 </div>
+                <hr
+                  style={{ width: '90%', borderStyle: 'solid', borderColor: '#000000'}}
+                />
 
                 {/* <div className="my-5 mr-auto ml-auto text-left" style={{ width: "70%" }}>
                     <h5>Cast Your Vote:</h5>
