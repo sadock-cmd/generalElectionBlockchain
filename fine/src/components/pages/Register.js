@@ -10,6 +10,8 @@ import './Register.css'
 const Register = () => {
     let history=useHistory();
     const ref =firebase.firestore();
+    const userCreated = firebase.firestore.Timestamp.now().toDate().toString();
+
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -40,9 +42,10 @@ const Register = () => {
                 'name': name,
                 'email': res.user.email,
                 'role': "voter",
+                'createdAt': userCreated
             })
-              
-              history.push('/login')
+            history.push('/login');
+            window.alert(`SUCCESSFULLY REGISTERED AS ${name}, LOGIN TO YOUR ACCOUNT,` );
             })
             .catch(err => {
                 clearInputs()

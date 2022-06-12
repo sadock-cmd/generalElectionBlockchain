@@ -61,6 +61,7 @@ const Home = () => {
                         <th>No</th>
                         <th>Name</th>
                         <th>Email</th>
+                        <th>Registration</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -72,6 +73,7 @@ const Home = () => {
                                 <td>{index + 1}</td>
                                 <td>{voter.name}</td>
                                 <td>{voter.email}</td> 
+                                <td>{voter.createdAt}</td>
                                 <td><button className='btn btn-danger btn-sm' onClick={() => {deleteUser(voter.key)}}>Delete</button></td>
                            </tr> 
                         ) 
