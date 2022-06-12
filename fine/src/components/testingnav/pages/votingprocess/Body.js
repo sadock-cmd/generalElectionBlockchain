@@ -87,6 +87,7 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
                     </form>
                 </div>
                 <p className="my-5">
+                   <a href="javascript:window.location.reload(true)" className="btn btn-default btn-md w-30" >RLD</a> 
                     Your address: <span className="font-weight-bold">{account}</span>{" "}
                 </p>
             </div>

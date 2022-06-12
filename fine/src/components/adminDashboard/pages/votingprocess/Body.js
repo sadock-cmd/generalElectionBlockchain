@@ -71,7 +71,7 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
                     </div>
                 </div>
 
-                <div className="my-5 mr-auto ml-auto text-left" style={{ width: "70%" }}>
+                {/* <div className="my-5 mr-auto ml-auto text-left" style={{ width: "70%" }}>
                     <h5>Cast Your Vote:</h5>
                     <form onSubmit={onsubmit}>
                         <select name="candidate" className="form-control" onChange={onchange}>
@@ -88,7 +88,8 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
                 </div>
                 <p className="my-5">
                     Your address: <span className="font-weight-bold">{account}</span>{" "}
-                </p>
+                </p> */}
+                <a href="javascript:window.location.reload(true)" className="btn btn-default mt-2 btn-md w-30" >RLD</a>
             </div>
             
         </div>

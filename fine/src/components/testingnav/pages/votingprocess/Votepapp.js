@@ -76,6 +76,9 @@ function Votepapp() {
         console.log("successfully run");
       });
       setloader(false);
+      window.setTimeout(function () {
+        window.location.reload();
+      });
   }
   if(loader){
     return <div>

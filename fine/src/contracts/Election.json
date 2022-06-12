@@ -3670,10 +3670,16 @@
       "links": {},
       "address": "0xF5f067051f163974e32D10c8256e0Bd0A6D56F41",
       "transactionHash": "0x70bea6f0409cf0d3e2a2722a7039790be268793a7e2636c9a64519bacba3db95"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x74f81678710691238201CC997999431c75067FaC",
+      "transactionHash": "0x3328a7f2274f2f40bb41721ed866417cf76776e2b9b1af425ad785eb724f6b73"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-11T12:29:17.718Z",
+  "updatedAt": "2022-06-12T10:41:00.649Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
