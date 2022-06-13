@@ -45,7 +45,7 @@ const Register = () => {
                 'createdAt': userCreated
             })
             history.push('/login');
-            window.alert(`SUCCESSFULLY REGISTERED AS ${name}, LOGIN TO YOUR ACCOUNT,` );
+            window.alert(`Successfully Registered as ${name}, Login To Your Account ...` );
             })
             .catch(err => {
                 clearInputs()
