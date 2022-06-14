@@ -20,8 +20,8 @@ contract Election{
 
     constructor(){
         //the code that we want to initiate
-        addCandidate("Chelsia Bernard");
-        addCandidate("Sadock Mlanga");
+        addCandidate("Chelsia Kimeme");
+        addCandidate("Evans Siame");
 
     }
     //add candidates 

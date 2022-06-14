@@ -71,7 +71,7 @@ const Register = () => {
 
             <div className="mx-auto my-auto shadow p-5" id="container-login">
   
-            <h2 className="text-center mb-4">USER REGISTRATION</h2><hr/>
+            <h2 className="text-center mb-4">REGISTRATION</h2><hr/>
                 <div className="form-group">
                     <input
                         type="text"

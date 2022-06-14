@@ -117,7 +117,7 @@ const Login = () => {
     return (
         <div className="container py-5 mt-5">
             <div className="mx-auto my-auto shadow p-5" id="container-login">
-                <h2 className="text-center mb-4">LOGIN TO YOUR ACCOUNT</h2><hr/>
+                <h2 className="text-center mb-4">LOGIN</h2><hr/>
                 <div className="form-group">
                     <input
                         type="email"
