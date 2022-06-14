@@ -21,7 +21,7 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
         <div className="mt 4 text-center style={{ color: '#000000'}}">
              <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
 
-            <h2>Election Results</h2>
+            <h2><a href="javascript:window.location.reload(true)" className="btn btn-default mt-2 btn-md w-30" >Election Results</a></h2>
             <hr
               style={{
                  width: "88%",
@@ -92,7 +92,6 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
                 <p className="my-5">
                     Your address: <span className="font-weight-bold">{account}</span>{" "}
                 </p> */}
-                <a href="javascript:window.location.reload(true)" className="btn btn-default mt-2 btn-md w-30" >RLD</a>
             </div>
             
         </div>
