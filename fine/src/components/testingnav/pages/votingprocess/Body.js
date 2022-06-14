@@ -33,7 +33,7 @@ const Body = ({ canidate1, canidate2, votecanidate, account }) => {
             <div className="p-3 m1-auto mr-auto" style={{wudth: "40%" }}>
                 <div className="row m1-auto mr-auto mb-2" style={{ width: "90%" }}>
                    <div className="col">
-                       <p>Candidate ID</p>
+                       <p>ID</p>
                    </div>
                    <div className="col">
                        <p>Candidate Name</p>
