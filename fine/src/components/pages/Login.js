@@ -151,7 +151,7 @@ const Login = () => {
                 <div className="btnContainer">
                     <div className="form-check form-check-inline">
                         <input className="form-check-input" type="radio" name="Usertype" id="Admin" value="Admin" />
-                        <label className="form-check-label" for="Admin">Admin</label>
+                        <label className="form-check-label" for="Admin">Controller</label>
                     </div>
                     <div className="form-check form-check-inline">
                         <input className="form-check-input" type="radio" name="Usertype" id="User" value="User" />
