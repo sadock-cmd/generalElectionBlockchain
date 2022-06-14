@@ -29,7 +29,7 @@ const Register = () => {
           
             <div className="mx-auto my-auto shadow p-5" id="container-login">
                 <div className=''>
-                    <h2 startIcon={<HowToVoteOutlinedIcon />} className="text-center mb-4 head">VOTE DAPP</h2><hr/>
+                    <h2 startIcon={<HowToVoteOutlinedIcon />} className="text-center mb-4 head">VOTEDAPP</h2><hr/>
                 </div>
                 
                 
