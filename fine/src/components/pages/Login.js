@@ -158,7 +158,7 @@ const Login = () => {
                         <label className="form-check-label" for="User">User</label>
                     </div>
                     <button className="btn btn-primary btn-lg btn-block mt-2 mb-2" onClick={handleLogin}>Login</button>
-                    <button className="btn btn-outline-dark rounded-pill btn-lg  mt-2 mb-2" onClick={handleSignInwithGoogle}>Login with Google <FcGoogle /></button>
+                    {/* <button className="btn btn-outline-dark rounded-pill btn-lg  mt-2 mb-2" onClick={handleSignInwithGoogle}>Login with Google <FcGoogle /></button> */}
                     <p className="m-1 text-left">Don't have an account?
                                 <Link to='/register'><a> Register</a></Link></p>
                                 <Link to='/'><button className="btn btn-secondary btn-sm ml-2">Back Home</button></Link>
